@@ -1,5 +1,11 @@
 #container{
-	background-color: gray;
+	border: solid 2px gray;
 	max-width: 360px;
 	margin: 0 auto;
 }
+
+.done{
+	color: gray;
+	text-decoration: line-through;
+}
+
