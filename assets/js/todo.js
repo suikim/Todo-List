@@ -20,7 +20,7 @@ $("input[type='text']").keypress(function(event){
 		//if val not empty
 		if($(this).val() != ""){
 			//add li to ul
-			$("ul").append('<li><span class="delete">X </span>'+ $(this).val()+ '</li>')
+			$("ul").append('<li><span class="delete"><i class="fa fa-trash"></i> </span>'+ $(this).val()+ '</li>')
 			//empty val after adding task
 			$(this).val("");
 		}

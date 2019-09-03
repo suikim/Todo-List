@@ -8,13 +8,23 @@ body{
 	font-family: 'Manjari', sans-serif;
 }
 
+#container{
+	max-width: 400px;
+	margin: 70px auto;
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.4);
+}
+
 h2{
 	background: rgb(121, 161, 221);
 	color: white;
 	margin: 0;
-	padding: 10px 15px;
+	padding: 15px 15px 10px 15px;
 	text-transform: uppercase;
 	font-weight: normal;
+}
+
+.fa-plus{
+	float: right;
 }
 
 ul{
@@ -37,20 +47,35 @@ input:focus{
 	border: 2px solid rgb(121, 161, 221);
 }
 
+
 li{
 	background: white;
-	padding: 5px 15px;
-	line-height: 30px;
+	line-height: 35px;
 }
 
 li:nth-child(even){
 	background: #f7f7f7;
 }
 
-#container{
-	max-width: 400px;
-	margin: 70px auto;
-	box-shadow: 0px 0px 10px rgba(0,0,0,0.4);
+span{
+	background: rgb(255, 60, 60);
+	color: white;
+	width: 0px;
+	height: 100%;
+	margin-right: 15px;
+	text-align: center;
+	display: inline-block;
+	transition: 0.15s linear;
+	opacity: 0;
+}
+
+li:hover span{
+	width: 30px;
+	opacity: 1.0;
+}
+
+.fa-trash{
+	padding-top: 10px;
 }
 
 .done{
