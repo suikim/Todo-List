@@ -27,7 +27,3 @@ $("input[type='text']").keypress(function(event){
 		
 	} 	
 });
-
-// $("#addTask").click(function(){
-// 	$("ul").add("li", "hello");
-// });
