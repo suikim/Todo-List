@@ -45,6 +45,7 @@ input{
 input:focus{
 	background: white;
 	border: 2px solid rgb(121, 161, 221);
+	transition: 0.15s linear;
 }
 
 
@@ -73,6 +74,7 @@ li:hover span{
 	width: 30px;
 	opacity: 1.0;
 }
+
 
 .fa-trash{
 	padding-top: 10px;
